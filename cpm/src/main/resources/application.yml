@@ -1,0 +1,14 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: CPM
+  datasource:
+      url: jdbc:mysql://localhost:3306/mybatisdatabase
+      username: root
+      password: admin
+  security:
+    user:
+     name: admin
+     password: admin
